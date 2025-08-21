@@ -53,3 +53,4 @@ tt.vg.yaml|https://tt.vg/freeclash
 10ium/V2RayAggregator-Eternity.yml|https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity.yml
 10ium/hin-vpn-mix.yaml|https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix
 darknessm427/WoW-clash-wg.yml|https://raw.githubusercontent.com/darknessm427/WoW/refs/heads/main/clash-wg.yml
+http://mp9f95qlr5w6g9:y1elpx1zic9qvx@p.proxik.cloud:8080
