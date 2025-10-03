@@ -63,3 +63,4 @@ amin_o__o_bitplatform.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/s
 the3rf_com_sub_php.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/the3rf_com_sub_php.yaml
 gheychiamoozesh.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/gheychiamoozesh.yaml
 ainita.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/ainita.yaml
+Telegram_Eag1e_YT.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/Telegram_Eag1e_YT.yaml
