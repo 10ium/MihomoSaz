@@ -88,6 +88,7 @@ wudongdefeng_list_raw.yaml|https://raw.githubusercontent.com/10ium/base64-encode
 xsfilternet.zaya.io.yaml|https://zaya.io/Xs_Unlimite
 shatakvpn.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/v2nodes.b64
 F0rc3Run_XX.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/F0rc3Run_XX.b64
+4n0nymou3/multi-proxy-config-fetcher.yaml|https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json
 Telegram_Eag1e_YT.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Telegram_Eag1e_YT.txt
 amiralter_config_lite.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/amiralter_config_lite.txt
 arshiacomplus/robinhood.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/arshiacomplus_robinhood.txt
