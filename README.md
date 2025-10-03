@@ -158,6 +158,13 @@
 - [🔒 xsfilternet.zaya.io.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/xsfilternet.zaya.io.yaml)
 - [⚡ shatakvpn.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/shatakvpn.yaml)
 - [🛡️ F0rc3Run_XX.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/F0rc3Run_XX.yaml)
+- [🌐 Telegram_Eag1e_YT.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/Telegram_Eag1e_YT.yaml)
+- [🚀 amiralter_config_lite.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/amiralter_config_lite.yaml)
+- [🔒 arshiacomplus/robinhood.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/arshiacomplus/robinhood.yaml)
+- [⚡ arshiacomplus/v2rayExtractor_ss.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/arshiacomplus/v2rayExtractor_ss.yaml)
+- [🛡️ arshiacomplus/v2rayExtractor_trojan.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/arshiacomplus/v2rayExtractor_trojan.yaml)
+- [🌐 arshiacomplus/v2rayExtractor_vmess.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/arshiacomplus/v2rayExtractor_vmess.yaml)
+- [🚀 arshiacomplus/v2rayExtractor_vless.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/arshiacomplus/v2rayExtractor_vless.yaml)
 
 ## 📖 راهنمای استفاده
 1. روی لینک مورد نظر **کلیک راست** کنید
