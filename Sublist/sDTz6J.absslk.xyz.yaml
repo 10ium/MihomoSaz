@@ -849,7 +849,7 @@ proxy-providers:
       https://url.v1.mk/sub?&url=https://sDTz6J.absslk.xyz/3e1fc97dfeebc0778a6176c1742d06de&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
     interval: 86400
     include-all: true
-    path: ./MihomoSaz141.yaml
+    path: ./MihomoSaz142.yaml
     health-check:
       enable: true
       interval: 1800

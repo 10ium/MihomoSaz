@@ -846,10 +846,10 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://url.v1.mk/sub?&url=https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/theGreatPeter_nodes.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+      https://url.v1.mk/sub?&url=https://raw.githubusercontent.com/vpnclashfa-backup/MirrorMan/main/base64/Danialsamadi_v2go_custom.b64&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
     interval: 86400
     include-all: true
-    path: ./MihomoSaz148.yaml
+    path: ./MihomoSaz81.yaml
     health-check:
       enable: true
       interval: 1800
