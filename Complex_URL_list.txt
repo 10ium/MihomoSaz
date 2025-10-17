@@ -95,3 +95,8 @@ arshiacomplus/v2rayExtractor_ss.yaml|https://raw.githubusercontent.com/10ium/bas
 arshiacomplus/v2rayExtractor_trojan.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/arshiacomplus_v2rayExtractor_trojan.txt
 arshiacomplus/v2rayExtractor_vmess.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/arshiacomplus_v2rayExtractor_vmess.txt
 arshiacomplus/v2rayExtractor_vless.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/arshiacomplus_v2rayExtractor_vless.txt
+Mahdi0024/ProxyCollector.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Mahdi0024_ProxyCollector.txt
+MhdiTaheri/V2rayCollector.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/MhdiTaheri_V2rayCollector.txt
+parvinxs/Sub_mahsa_xsparvin.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/parvinxs_Sub_mahsa_xsparvin.txt
+Farid-Karimi/Config_Collector.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Farid-Karimi_Config-Collector.txt
+Kwinshadow/TelegramV2rayCollector.yaml|https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/refs/heads/main/sublinks/b64mix.txt

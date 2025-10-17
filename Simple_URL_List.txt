@@ -64,3 +64,4 @@ the3rf_com_sub_php.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subc
 gheychiamoozesh.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/gheychiamoozesh.yaml
 ainita.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/ainita.yaml
 Telegram_Eag1e_YT.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/Telegram_Eag1e_YT.yaml
+code3-dev/warp-in-clash.yaml|https://raw.githubusercontent.com/code3-dev/code3-dev/refs/heads/main/warp-in-clash.yaml
