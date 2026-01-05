@@ -846,7 +846,7 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2F10ium%2Fmulti-proxy-config-fetcher%2Frefs%2Fheads%2Fmain%2Fconfigs%2Fsingbox_configs.json&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+      https://sub.xeton.dev/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2F10ium%2Fmulti-proxy-config-fetcher%2Frefs%2Fheads%2Fmain%2Fconfigs%2Fsingbox_configs.json&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
     interval: 86400
     include-all: true
     path: ./proxy.yaml
