@@ -22,6 +22,7 @@ free18.yaml|https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yam
 hamedp-71/Clash_New.yaml|https://raw.githubusercontent.com/hamedp-71/Clash_New/refs/heads/main/hp.yaml
 hamedp-71/N_warp.yaml|https://raw.githubusercontent.com/hamedp-71/N_warp/refs/heads/main/HP.yaml
 hamedp-71/clash-m.k.z.yaml|https://raw.githubusercontent.com/hamedp-71/clash-m.k.z/refs/heads/main/hp.yaml
+hamedp-71/Vless-Trojan_clash_hp.yaml|https://raw.githubusercontent.com/hamedp-71/Vless-Trojan_clash/refs/heads/main/hp.yaml
 hamedp-71/Sub_Checker_Creator_final.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/hamedp-71_Sub_Checker_Creator_final.yaml
 hamedp-71/Trojan_hp.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/hamedp-71_Trojan_hp.yaml
 itsyebekhe/IR.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/itsyebekhe_IR.yaml
@@ -64,4 +65,5 @@ the3rf_com_sub_php.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subc
 gheychiamoozesh.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/gheychiamoozesh.yaml
 ainita.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/ainita.yaml
 Telegram_Eag1e_YT.yaml|https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/Telegram_Eag1e_YT.yaml
+
 code3-dev/warp-in-clash.yaml|https://raw.githubusercontent.com/code3-dev/code3-dev/refs/heads/main/warp-in-clash.yaml
