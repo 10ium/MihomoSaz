@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mfuu/v2ray/refs/heads/master/clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz41.yaml
+    path: ./MihomoSaz42.yaml
     health-check:
       enable: true
       interval: 1800

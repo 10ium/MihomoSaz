@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/SS/trinity_clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz34.yaml
+    path: ./MihomoSaz35.yaml
     health-check:
       enable: true
       interval: 1800

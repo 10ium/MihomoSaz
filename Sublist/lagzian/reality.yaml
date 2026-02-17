@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/SS-Collector/refs/heads/main/reality_clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz33.yaml
+    path: ./MihomoSaz34.yaml
     health-check:
       enable: true
       interval: 1800

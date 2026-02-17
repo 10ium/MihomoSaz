@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/hamedp-71_Sub_Checker_Creator_final.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz25.yaml
+    path: ./MihomoSaz26.yaml
     health-check:
       enable: true
       interval: 1800

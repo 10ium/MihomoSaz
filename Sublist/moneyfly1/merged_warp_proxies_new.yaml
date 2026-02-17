@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/moneyfly1/chromego_merge/refs/heads/main/sub/merged_warp_proxies_new.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz45.yaml
+    path: ./MihomoSaz46.yaml
     health-check:
       enable: true
       interval: 1800

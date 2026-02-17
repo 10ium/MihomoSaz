@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/maimengmeng_AnyTLS.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz39.yaml
+    path: ./MihomoSaz40.yaml
     health-check:
       enable: true
       interval: 1800

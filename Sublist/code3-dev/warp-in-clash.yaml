@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/code3-dev/code3-dev/refs/heads/main/warp-in-clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz67.yaml
+    path: ./MihomoSaz68.yaml
     health-check:
       enable: true
       interval: 1800

@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/refs/heads/main/output_configs/clash/itsyebekhe_mix.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz28.yaml
+    path: ./MihomoSaz29.yaml
     health-check:
       enable: true
       interval: 1800
