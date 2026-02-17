@@ -849,7 +849,7 @@ proxy-providers:
       https://proxypool.link/clash/proxies
     interval: 86400
     include-all: true
-    path: ./MihomoSaz49.yaml
+    path: ./MihomoSaz50.yaml
     health-check:
       enable: true
       interval: 1800

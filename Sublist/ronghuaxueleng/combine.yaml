@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/combine.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz55.yaml
+    path: ./MihomoSaz56.yaml
     health-check:
       enable: true
       interval: 1800

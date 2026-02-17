@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/NoMoreWalls.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz53.yaml
+    path: ./MihomoSaz54.yaml
     health-check:
       enable: true
       interval: 1800

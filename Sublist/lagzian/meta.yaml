@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/lagzian/TVC/refs/heads/main/subscriptions/meta/mix
     interval: 86400
     include-all: true
-    path: ./MihomoSaz32.yaml
+    path: ./MihomoSaz33.yaml
     health-check:
       enable: true
       interval: 1800

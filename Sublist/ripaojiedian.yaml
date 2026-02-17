@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ripaojiedian/freenode/refs/heads/main/clash
     interval: 86400
     include-all: true
-    path: ./MihomoSaz52.yaml
+    path: ./MihomoSaz53.yaml
     health-check:
       enable: true
       interval: 1800

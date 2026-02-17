@@ -849,7 +849,7 @@ proxy-providers:
       https://raw.githubusercontent.com/liketolivefree/kobabi/refs/heads/main/prov_clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz38.yaml
+    path: ./MihomoSaz39.yaml
     health-check:
       enable: true
       interval: 1800

@@ -849,7 +849,7 @@ proxy-providers:
       https://tt.vg/freeclash
     interval: 86400
     include-all: true
-    path: ./MihomoSaz61.yaml
+    path: ./MihomoSaz62.yaml
     health-check:
       enable: true
       interval: 1800
