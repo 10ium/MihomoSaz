@@ -68,4 +68,10 @@ ainita.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main
 Telegram_Eag1e_YT.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/Telegram_Eag1e_YT.yaml
 code3-dev/warp-in-clash.yaml|https://raw.githubusercontent.com/code3-dev/code3-dev/refs/heads/main/warp-in-clash.yaml
 irdevs_dns/subfreeiran_amirrankcat.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/subfreeiran_amirrankcat.yaml
+MrBihal/Meli.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/MrBihal_Meli.yaml
+arshiacomplus/Robin_MiyahVpn.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/arshiacomplus_Robin_MiyahVpn.yaml
+danesh1118.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/danesh1118.yaml
+expressalaki/ExpressVPN.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/expressalaki_ExpressVPN.yaml
+server_channel_pro/vpnmarket.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/server_channel_pro_vpnmarket.yaml
+
 
