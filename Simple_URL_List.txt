@@ -73,5 +73,9 @@ arshiacomplus/Robin_MiyahVpn.yaml|https://raw.githubusercontent.com/10ium/subcon
 danesh1118.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/danesh1118.yaml
 expressalaki/ExpressVPN.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/expressalaki_ExpressVPN.yaml
 server_channel_pro/vpnmarket.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/server_channel_pro_vpnmarket.yaml
+gheychiamoozesh/list_mix_count_500_shuffle_false_unique_false.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/gheychiamoozesh_list_mix_count_500_shuffle_false_unique_false.yaml
+peweza_frank-vpl_mix.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/peweza_frank-vpl_mix.yaml
+igareck/russia_BLACK_mix.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/igareck_russia_BLACK_mix.yaml
+igareck/russia_WHITE_mix.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/igareck_russia_WHITE_mix.yaml
 
 
