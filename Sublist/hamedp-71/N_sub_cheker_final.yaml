@@ -593,7 +593,6 @@ proxy-groups:
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     icon: https://www.svgrepo.com/show/388466/rotating-forward.svg
-    url: https://api.v2fly.org/checkConnection.svgz
     strategy: round-robin
     url: 'https://www.gstatic.com/generate_204'
     interval: 30
