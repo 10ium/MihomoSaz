@@ -1,32 +1,35 @@
 global-client-fingerprint: chrome
+keep-alive-interval: 5    # تست کانکشن هر ۵ ثانیه برای کشف سریع قطعی‌ها
+keep-alive-idle: 10       # شروع بررسی بعد از ۱۰ ثانیه بی‌تحرکی کانکشن
+disable-keep-alive: false # حتماً روشن باشد تا کانکشن‌ها در ایران فریز نشوند
 port: 7890
 socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7894
 allow-lan: true
-tcp-concurrent: true
+tcp-concurrent: true      # تست هم‌زمان چند مسیر برای اتصال سریع‌تر
 enable-process: true
-find-process-mode: strict
-ipv6: true
-log-level: debug
+find-process-mode: always
+ipv6: false               # خاموش به دلیل اختلال شدید در ایران
+log-level: info           # بهینه برای کاهش مصرف باتری و پردازنده
 geo-auto-update: true
 geo-update-interval: 168
 secret: ''
 bind-address: '*'
-unified-delay: false
-disable-keep-alive: false
-keep-alive-idle: 30
-keep-alive-interval: 30
+
 profile:
   store-selected: true
   store-fake-ip: true
+
+# ==========================================
+# ۲. تنظیمات پیشرفته و ضد فیلترینگ DNS
+# ==========================================
 dns:
   enable: true
-  ipv6: true
-  respect-rules: false
-  prefer-h3: true
-  cache-algorithm: arc   
+  ipv6: false             # غیرفعال‌سازی برای جلوگیری از تایم‌اوت
+  prefer-h3: false        # غیرفعال‌سازی HTTP/3 به دلیل فیلترینگ شدید روی پروتکل کوئیک
+  cache-algorithm: arc
   use-system-hosts: true
   use-host: true
   listen: 0.0.0.0:53
@@ -34,50 +37,100 @@ dns:
   fake-ip-filter-mode: blacklist
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - '*.lan'             
-    - '*.localdomain'     
-    - '*.invalid'         
-    - '*.localhost'       
-    - '*.test'            
-    - '*.local'           
+    - '*.lan'
+    - '*.localdomain'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
     - '*.home.arpa'
     - 'time.*.com'
     - 'ntp.*.com'
     - '*.ir'
- 
-  default-nameserver: 
-    - 8.8.8.8 
-    - 8.8.4.4 
-    - 1.0.0.1 
-    - 1.1.1.1 
-    - 9.9.9.9 
-    - 9.9.9.11 
-    - 9.9.9.10 
-    - 94.140.14.15 
-    - 94.140.15.15 
-    - 223.5.5.5 
-    - 77.88.8.8
+
+  # دی‌ان‌اس‌های اولیه برای پیدا کردن آدرس سرورها
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 9.9.9.9
+
+  # دی‌ان‌اس‌های اصلی (اجبار به TCP برای فرار از دراپ شدن UDP)
   nameserver:
-    - 'https://sky.rethinkdns.com/1:-J8AGH8C7_2-___f3_vZ3f_z-f9KagBI'
-    - 'tls://1-7cpqagd7alx73px777p5766z3x77h6p7jjvaasa.max.rethinkdns.com'
+    - tcp://1.1.1.1
+    - tcp://1.0.0.1
+    - tcp://8.8.8.8
+    - tcp://8.8.4.4
+    - tcp://9.9.9.9
+    - tcp://149.112.112.112
+    - tcp://208.67.222.222
+    - tcp://208.67.220.222
+
+  # شبکه عظیم دی‌ان‌اس بکاپ شما (تغییر یافته به TCP جهت پایداری ۱۰۰٪ در ایران)
+  fallback:
+    - tcp://76.76.19.19
+    - tcp://76.223.122.150
+    - tcp://185.228.168.9
+    - tcp://185.228.169.9
+    - tcp://8.26.56.26
+    - tcp://8.20.247.20
+    - tcp://76.76.2.11
+    - tcp://76.76.10.11
+    - tcp://84.200.69.80
+    - tcp://84.200.70.40
+    - tcp://45.33.97.5
+    - tcp://37.235.1.177
+    - tcp://209.244.0.3
+    - tcp://209.244.0.4
+    - tcp://156.154.70.5
+    - tcp://156.154.71.5
+    - tcp://103.86.96.100
+    - tcp://103.86.99.100
+    - tcp://199.85.126.10
+    - tcp://199.85.127.10
+    - tcp://129.250.35.250
+    - tcp://129.250.35.251
+    - tcp://94.16.114.254
+    - tcp://94.247.43.254
+    - tcp://208.67.222.20
+    - tcp://195.46.39.39
+    - tcp://195.46.39.40
+    - tcp://204.117.214.10
+    - tcp://199.2.252.10
+    - tcp://194.169.169.169
+    - tcp://156.154.70.1
+    - tcp://156.154.71.1
+    - tcp://91.239.100.100
+    - tcp://89.233.43.71
+    - tcp://64.6.64.6
+    - tcp://64.6.65.6
+    - tcp://77.88.8.8
+    - tcp://77.88.8.1
+
+  # فیلتر هوشمند برای سوئیچ آنی به بکاپ‌ها در صورت آلودگی دی‌ان‌اس در ایران
+  fallback-filter:
+    geoip: true
+    geoip-code: IR # تشخیص آی‌پی‌های فیک فیلترینگ ایران و سوئیچ به بکاپ
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+
+  # دی‌ان‌اس اختصاصی برای حل آدرس سرورهای خود پروکسی
+  proxy-server-nameserver:
+    - tcp://1.1.1.1
+    - tcp://8.8.8.8
+
   direct-nameserver:
     - '78.157.42.100'
     - '78.157.42.101' 
-  proxy-server-nameserver: 
-    - '2606:4700:4700::1111' 
-    - '2606:4700:4700::1001' 
-    - '2001:4860:4860::8888' 
-    - '2001:4860:4860::8844' 
-    - '1.1.1.1' 
-    - '8.8.8.8' 
-    - '8.8.4.4' 
-    - '9.9.9.9' 
-    - '223.5.5.5' 
-    - '77.88.8.8' 
-    - '2400:3200::1' 
-    - '2a02:6b8::feed:0ff' 
-    - '2620:fe::fe' 
 
+# ==========================================
+# ۳. سیستم اسنیفر (Sniffer)
+# ==========================================
 sniffer:
   enable: true
   force-dns-mapping: true
@@ -89,6 +142,9 @@ sniffer:
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
+# ==========================================
+# ۴. تنظیمات تونل شبکه (TUN)
+# ==========================================
 tun:
   enable: true
   stack: mixed
@@ -141,7 +197,7 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/10ium/clash_rules/main/censor.yaml
     interval: 86400
-    path: ./ruleset/tahrim.yaml
+    path: ./ruleset/censor.yaml
   local_ips:
     type: http
     behavior: ipcidr
@@ -265,7 +321,7 @@ rule-providers:
     type: http
     format: yaml
     behavior: domain
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.yaml"
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/releases/latest/download/category-ads-all.yaml"
     path: ./ruleset/ads.yaml
     interval: 86400
   DownloadManagers:
@@ -491,12 +547,12 @@ proxy-groups:
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     icon: https://www.svgrepo.com/show/7876/speedometer.svg
-    url: https://api.v2fly.org/checkConnection.svgz
-    interval: 600
-    timeout: 6000
-    tolerance: 200
-    max-failed-times: 5
-    lazy: true
+    url: 'https://www.gstatic.com/generate_204' # استفاده از یو‌آر‌ال سبک‌تر و پایدارتر
+    interval: 25 # کاهش شدید زمان تست (هر ۲۵ ثانیه) برای کشف سریع قطعی‌ها
+    tolerance: 20 # حساسیت بالا (۲۰ میلی‌ثانیه)؛ اگر پینگ کمی خراب شد، سریع سوییچ کند
+    timeout: 1200 # اگر پروکسی در ۱.۲ ثانیه وصل نشد، معطلش نکن و مرده فرضش کن
+    lazy: false # بسیار مهم: تست‌ها باید همیشه در پس‌زمینه انجام شوند تا پروکسیِ آماده داشته باشی
+    max-failed-times: 2 # بعد از ۲ بار خطا، سریعاً تست اجباری انجام دهد
     use:
       - proxy
   - name: پشتیبان (در صورت قطعی) 🧯
@@ -539,11 +595,10 @@ proxy-groups:
     icon: https://www.svgrepo.com/show/388466/rotating-forward.svg
     url: https://api.v2fly.org/checkConnection.svgz
     strategy: round-robin
-    interval: 600
-    tolerance: 200
-    timeout: 6000
-    max-failed-times: 3
-    lazy: true
+    url: 'https://www.gstatic.com/generate_204'
+    interval: 30
+    timeout: 1500
+    lazy: false
     use:
       - proxy
   - name: توزیع بار (موقت) ⏳
@@ -557,6 +612,39 @@ proxy-groups:
     lazy: true
     use:
       - proxy
+  - name: المنت 💬
+    type: select
+    icon: https://www.svgrepo.com/show/353655/matrix-icon.svg
+    proxies:
+      - بدون فیلترشکن 🛡️
+      - نوع انتخاب پروکسی 🔀
+      - اتصال پایدار 🔗
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (در صورت قطعی) 🧯
+      - اجازه ندادن 🚫
+  - name: تیم‌اسپیک 🎧
+    type: select
+    icon: https://www.svgrepo.com/show/331567/teamspeak.svg
+    proxies:
+      - بدون فیلترشکن 🛡️
+      - نوع انتخاب پروکسی 🔀
+      - اتصال پایدار 🔗
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (در صورت قطعی) 🧯
+      - اجازه ندادن 🚫
+  - name: دلتاچت ✉️
+    type: select
+    icon: https://www.svgrepo.com/show/373771/mail.svg
+    proxies:
+      - بدون فیلترشکن 🛡️
+      - نوع انتخاب پروکسی 🔀
+      - اتصال پایدار 🔗
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (در صورت قطعی) 🧯
+      - اجازه ندادن 🚫
   - name: دانلود منیجر 📥
     type: select
     icon: https://www.sadeemrdp.com/fonts/apps/IDM-Logo.svg
@@ -859,6 +947,28 @@ rules:
   - RULE-SET,DownloadManagers,دانلود منیجر 📥
   - RULE-SET,Download,دانلود منیجر 📥
   - RULE-SET,stremio,استریمیو 🎬
+  - PROCESS-NAME,im.vector.app,المنت 💬
+  - PROCESS-NAME,io.element.android.x,المنت 💬
+  - PROCESS-NAME,Element.exe,المنت 💬
+  - DOMAIN-SUFFIX,aklispro.sbs,المنت 💬
+  - DOMAIN-SUFFIX,chat.aklispro.sbs,المنت 💬
+  - DOMAIN-SUFFIX,site.aklispro.sbs,المنت 💬
+  - DOMAIN-SUFFIX,electonet.xyz,المنت 💬
+  - DOMAIN-SUFFIX,chat.electonet.xyz,المنت 💬
+  - DOMAIN-SUFFIX,rainbuwu.ir,المنت 💬
+  - DOMAIN-SUFFIX,cinny.rainbuwu.ir,المنت 💬
+  - PROCESS-NAME,chat.delta,دلتاچت ✉️
+  - PROCESS-NAME,DeltaChat.exe,دلتاچت ✉️
+  - DOMAIN-SUFFIX,arsalandalvand.ir,دلتاچت ✉️
+  - DST-PORT,993,دلتاچت ✉️
+  - DST-PORT,465,دلتاچت ✉️
+  - DST-PORT,587,دلتاچت ✉️
+  - PROCESS-NAME,com.teamspeak.ts3client,تیم‌اسپیک 🎧
+  - PROCESS-NAME,ts3client_win64.exe,تیم‌اسپیک 🎧
+  - PROCESS-NAME,ts3client_win32.exe,تیم‌اسپیک 🎧
+  - DOMAIN-SUFFIX,ag.tssq.ir,تیم‌اسپیک 🎧
+  - DST-PORT,9987,تیم‌اسپیک 🎧
+  - RULE-SET,spotifyads,تبلیغات اپ ها 🍃
   - RULE-SET,BanProgramAD,تبلیغات اپ ها 🍃
   - RULE-SET,BanAD,رهگیری جهانی 🛑
   - RULE-SET,PrivateTracker,رهگیری جهانی 🛑
@@ -881,6 +991,9 @@ rules:
   - RULE-SET,YouTube,یوتیوب ▶️
   - RULE-SET,youtube,یوتیوب ▶️
   - RULE-SET,YouTubeMusic,یوتیوب ▶️
+  - PROCESS-NAME,com.anydesk.anydeskandroid,انی‌دسک 🔴
+  - PROCESS-NAME,AnyDesk.exe,انی‌دسک 🔴
+  - DOMAIN-SUFFIX,anydesk.com,انی‌دسک 🔴
   - PROCESS-NAME,Twitter.exe,توییتر 🐦
   - PROCESS-NAME,com.twitter.android,توییتر 🐦
   - RULE-SET,Chotwitter,توییتر 🐦
@@ -890,9 +1003,6 @@ rules:
   - PROCESS-NAME,Spotify.exe,اسپاتیفای 🎵
   - RULE-SET,DomainSpotify,اسپاتیفای 🎵
   - RULE-SET,mihspotify,اسپاتیفای 🎵
-  - PROCESS-NAME,com.anydesk.anydeskandroid,انی‌دسک 🔴
-  - PROCESS-NAME,AnyDesk.exe,انی‌دسک 🔴
-  - DOMAIN-SUFFIX,anydesk.com,انی‌دسک 🔴
   - PROCESS-NAME,com.instagram.android,اینستاگرام 📸
   - RULE-SET,instagram,اینستاگرام 📸
   - DOMAIN-SUFFIX,deepseek.com,هوش مصنوعی 🤖
