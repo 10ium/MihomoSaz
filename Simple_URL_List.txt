@@ -77,5 +77,6 @@ gheychiamoozesh/list_mix_count_500_shuffle_false_unique_false.yaml|https://raw.g
 peweza_frank-vpl_mix.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/peweza_frank-vpl_mix.yaml
 igareck/russia_BLACK_mix.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/igareck_russia_BLACK_mix.yaml
 igareck/russia_WHITE_mix.yaml|https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/igareck_russia_WHITE_mix.yaml
+whitedns.yaml|https://sub.whitedns.one/sub/mihomo.yaml
 
 
