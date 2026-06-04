@@ -185,6 +185,12 @@
 - [🛡️ parvinxs/Sub_mahsa_xsparvin.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/parvinxs/Sub_mahsa_xsparvin.yaml)
 - [🌐 Farid-Karimi/Config_Collector.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/Farid-Karimi/Config_Collector.yaml)
 - [🚀 Kwinshadow/TelegramV2rayCollector.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/Kwinshadow/TelegramV2rayCollector.yaml)
+- [🔒 subrostunnel_vercel_wl.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/subrostunnel_vercel_wl.yaml)
+- [⚡ ShadowException/VPN_cat.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/ShadowException/VPN_cat.yaml)
+- [🛡️ whoahaow/rjsxrd_bypass_all.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/whoahaow/rjsxrd_bypass_all.yaml)
+- [🌐 masir-sefid/masir_sefid.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/masir-sefid/masir_sefid.yaml)
+- [🚀 v2hub-configs/Sub_AutoUpdate.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/v2hub-configs/Sub_AutoUpdate.yaml)
+- [🔒 igareck/BLACK_VLESS_RUS_mobile.yaml](https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/igareck/BLACK_VLESS_RUS_mobile.yaml)
 
 ## 📖 راهنمای استفاده
 1. روی لینک مورد نظر **کلیک راست** کنید
