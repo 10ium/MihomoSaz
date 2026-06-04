@@ -100,3 +100,9 @@ MhdiTaheri/V2rayCollector.yaml|https://raw.githubusercontent.com/10ium/base64-en
 parvinxs/Sub_mahsa_xsparvin.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/parvinxs_Sub_mahsa_xsparvin.txt
 Farid-Karimi/Config_Collector.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/Farid-Karimi_Config-Collector.txt
 Kwinshadow/TelegramV2rayCollector.yaml|https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/refs/heads/main/sublinks/b64mix.txt
+subrostunnel_vercel_wl.yaml|https://subrostunnel.vercel.app/wl.txt
+ShadowException/VPN_cat.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/ShadowException_VPN_cat.txt
+whoahaow/rjsxrd_bypass_all.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/whoahaow_rjsxrd_bypass_all.txt
+masir-sefid/masir_sefid.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/masir-sefi.txt
+v2hub-configs/Sub_AutoUpdate.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/v2hub-configs_Sub_AutoUpdate.txt
+igareck/BLACK_VLESS_RUS_mobile.yaml|https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/igareck_BLACK_VLESS_RUS_mobile.txt
