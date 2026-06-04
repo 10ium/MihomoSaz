@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/nodefree.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz6.yaml
+    path: ./MihomoSaz4.yaml
     health-check:
       enable: true
       interval: 1800

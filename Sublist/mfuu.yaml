@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/mfuu/v2ray/refs/heads/master/clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz43.yaml
+    path: ./MihomoSaz23.yaml
     health-check:
       enable: true
       interval: 1800

@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz21.yaml
+    path: ./MihomoSaz11.yaml
     health-check:
       enable: true
       interval: 1800

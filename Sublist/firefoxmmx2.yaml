@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz20.yaml
+    path: ./MihomoSaz10.yaml
     health-check:
       enable: true
       interval: 1800

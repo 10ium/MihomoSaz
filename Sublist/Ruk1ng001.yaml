@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/Ruk1ng001/freeSub/refs/heads/main/clash.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz11.yaml
+    path: ./MihomoSaz6.yaml
     health-check:
       enable: true
       interval: 1800

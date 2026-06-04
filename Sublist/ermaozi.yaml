@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/main/subscribe/clash.yml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz18.yaml
+    path: ./MihomoSaz9.yaml
     health-check:
       enable: true
       interval: 1800

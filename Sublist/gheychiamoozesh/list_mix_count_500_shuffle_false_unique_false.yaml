@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/gheychiamoozesh_list_mix_count_500_shuffle_false_unique_false.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz76.yaml
+    path: ./MihomoSaz41.yaml
     health-check:
       enable: true
       interval: 1800

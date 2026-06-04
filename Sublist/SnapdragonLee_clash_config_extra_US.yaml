@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/refs/heads/master/dist/clash_config_extra_US.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz12.yaml
+    path: ./MihomoSaz7.yaml
     health-check:
       enable: true
       interval: 1800

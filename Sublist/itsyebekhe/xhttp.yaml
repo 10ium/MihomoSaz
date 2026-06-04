@@ -936,7 +936,7 @@ proxy-providers:
       https://raw.githubusercontent.com/10ium/subconverter/refs/heads/main/output_configs/clash/itsyebekhe_xhttp.yaml
     interval: 86400
     include-all: true
-    path: ./MihomoSaz32.yaml
+    path: ./MihomoSaz18.yaml
     health-check:
       enable: true
       interval: 1800
