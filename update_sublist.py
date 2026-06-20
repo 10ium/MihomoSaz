@@ -26,7 +26,7 @@ class ConfigProcessor:
         if is_complex:
             encoded = urllib.parse.quote(url, safe=':/?&=')
             return (
-                "https://sub.xeton.dev/sub?&url="
+                "https://revil-sub.pages.dev/sub/clash-meta?"
                 f"{encoded}&target=clash&config="
                 "https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead"
                 "%2Fsubconverter-config%40master%2Fremote-config"
